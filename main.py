@@ -10,6 +10,10 @@ def emitieron():
 def mastweets():
     print("Los top 10 días donde hay más tweets.")
 
+
+def hastags():
+    print("Los top 10 hashtags más usados.")
+
 def main(a):
     if a == 1:
         retweeted()
@@ -17,5 +21,7 @@ def main(a):
         emitieron()
     elif a ==3:
         mastweets()
+    elif a == 4:
+        hastags()
 
 
